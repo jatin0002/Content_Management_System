@@ -73,24 +73,43 @@ Then copy url and paste in .env file
  
 ## Dependecies we use in this project
    * express 
+   
      $ npm install express
+     
    * mongoose
+   
      $ npm install mongoose
+     
    * express-validator
+   
      $ npm install express-validator
+     
    * bcrypt - For hashing password
+   
      $ npm install bcrypt
+     
    * body-parser
+   
      $ npm install body-parser
+     
    * cors - Cross Origin Resource Sharing
+   
      $ npm install cors
+     
    * cookie-parser
+   
      $ npm install cookie-parser
+     
    * jsonwebtoken
+   
      $ npm install jsonwebtoken
+     
    * dotenv
+   
      $ npm install dotenv 
+     
    * uuid
+   
      $ npm install uuid
 
 ## How to use this project
