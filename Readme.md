@@ -89,11 +89,7 @@ Then copy url and paste in .env file
    * jsonwebtoken
      $ npm install jsonwebtoken
    * dotenv
-     # with npm 
-     npm install dotenv
- 
-     # or with Yarn 
-     yarn add dotenv
+     $ npm install dotenv 
    * uuid
      $ npm install uuid
 
