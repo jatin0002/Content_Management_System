@@ -1,4 +1,4 @@
-# Project Title
+# Content Manager
 
 Content Management System API
 
@@ -10,7 +10,7 @@ For development, you will need Node.js and a node global package.
 ### Node
 - #### Node installation on Windows
 
-Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+Just go to [official Node.js website](https://nodejs.org/) and download the installer.
 Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
 
 - #### Node installation on Ubuntu
@@ -72,16 +72,45 @@ Then copy url and paste in .env file
     DB = mongodb+srv://<username>:<password>@cluster0.63xa1.mongodb.net/<dbname>?retryWrites=true&w=majority
  
 ## Dependecies we use in this project
-   * express
+   * express 
+   
+     $ npm install express
+     
    * mongoose
+   
+     $ npm install mongoose
+     
    * express-validator
+   
+     $ npm install express-validator
+     
    * bcrypt - For hashing password
+   
+     $ npm install bcrypt
+     
    * body-parser
+   
+     $ npm install body-parser
+     
    * cors - Cross Origin Resource Sharing
+   
+     $ npm install cors
+     
    * cookie-parser
+   
+     $ npm install cookie-parser
+     
    * jsonwebtoken
+   
+     $ npm install jsonwebtoken
+     
    * dotenv
+   
+     $ npm install dotenv 
+     
    * uuid
+   
+     $ npm install uuid
 
 ## How to use this project
 This api gives you several endpoints for authentication, creating, reading, updating, deleting.

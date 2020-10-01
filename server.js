@@ -18,8 +18,8 @@ mongoose
     useNewUrlParser: true, //compulsory
     useUnifiedTopology: true,
     useCreateIndex: true,
-  }).then(()=> console.log("DB is conected"))
-  
+  }).then(() => console.log("DB is conected"))
+
 //custome Middlewares
 app.use(cookieParser());
 app.use(bodyParser.json());
@@ -30,6 +30,6 @@ app.use("/api", authRoutes);
 app.use("/api", userRoutes);
 app.use("/api", articleRouter);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
-app.listen(port, () => console.log(`Server is up and running at http://localhost:${port}/api`));
+app.listen(port, () => console.log(`Server is running at http://localhost:${port}/api`));
